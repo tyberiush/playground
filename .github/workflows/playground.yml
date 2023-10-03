@@ -13,6 +13,6 @@ jobs:
       run:
         working-directory: './scripts'
     steps:
-      - run: pwd
       - uses: actions/checkout@v3
+      - uses: pl-strflt/uci/.github/actions/read-go-mod@main
         
